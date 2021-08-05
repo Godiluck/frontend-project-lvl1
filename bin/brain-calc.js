@@ -19,7 +19,7 @@ const calcGame = () => {
     const correctAnswer = String(eval(randomExpression));
 
     console.log(`Question: ${randomExpression}`);
-    const answer = readlineSync.question('Your answer:');
+    const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {

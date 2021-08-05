@@ -12,7 +12,7 @@ const evenGame = () => {
   for (let i = 0; i <= 2; i += 1) {
     const randomInt = Math.floor(Math.random() * 101);
     console.log(`Question: ${randomInt}`);
-    const answer = readlineSync.question('Your answer:');
+    const answer = readlineSync.question('Your answer: ');
     if (randomInt % 2 === 0) {
       if (answer === 'yes') {
         console.log('Correct!');

@@ -34,7 +34,7 @@ const gcdGame = () => {
     const correctAnswer = String(divisor);
 
     console.log(`Question: ${randomInt1} ${randomInt2}`);
-    const answer = readlineSync.question('Your answer:');
+    const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
