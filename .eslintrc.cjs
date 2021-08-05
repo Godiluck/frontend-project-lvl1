@@ -11,7 +11,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-  "eval": "off",
   "import/extensions": "off",
   "no-console": "off"
   },
