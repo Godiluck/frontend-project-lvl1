@@ -16,7 +16,7 @@ export const question = () => {
   const correctAnswer = String(progression[hiddenElem]);
   progression[hiddenElem] = hiddenSymbol;
   const newArr = progression.join(' ');
-  console.log(`Question ${newArr}`);
+  console.log(`Question: ${newArr}`);
   return correctAnswer;
 };
 

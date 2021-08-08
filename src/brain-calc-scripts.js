@@ -8,7 +8,7 @@ export const question = () => {
   const operators = ['+', '-', '*'];
   const randomOperator = operators[Math.floor(Math.random() * 3)];
   const expression = `${num1} ${randomOperator} ${num2}`;
-  console.log(`Question ${expression}`);
+  console.log(`Question: ${expression}`);
   return expression;
 };
 

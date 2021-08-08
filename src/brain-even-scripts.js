@@ -4,7 +4,7 @@ export const taskDescription = 'Answer "yes" if the number is even, otherwise an
 
 export const question = () => {
   const num = getRandomInt(1, 100);
-  console.log(`Question ${num}`);
+  console.log(`Question: ${num}`);
   return num;
 };
 
